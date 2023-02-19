@@ -11,7 +11,6 @@ pipeline {
             steps {
                 sh '/var/jenkins_home/workspace/PES1UG20CS200-1/main/hello_exec'
                 sh '/var/jenkins_home/workspace/PES1UG20CS200-1/main/newcpp_exec'
-                sh '/var/jenkins_home/workspace/PES1UG20CS200-1/main/notthere_exec'
                 echo 'Test Stage Successful'
             }
         }
